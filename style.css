@@ -100,6 +100,80 @@ h1, h2 {
     font-size: 16px;
 }
 
+/* Skill container khusus */
+.skill {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 18px;
+    padding: 30px 40px;
+    box-shadow: 0 10px 25px rgba(255, 126, 179, 0.35);
+    text-align: center;
+    animation: fadeUp 1.5s ease;
+}
+
+/* Judul */
+.skill h2 {
+    color: #e91e63;
+    margin-bottom: 25px;
+}
+
+/* List skill */
+.skill ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Item skill */
+.skill li {
+    font-size: 18px;
+    margin: 18px 0;
+    position: relative;
+    padding-left: 35px;
+    text-align: left;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Icon ceklis di depan skill */
+.skill li::before {
+    content: "\f058"; /* FontAwesome icon: check-circle */
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #e91e63; /* pink */
+    font-size: 20px;
+}
+
+/* Bagian level skill (misal: Advanced, Intermediate) */
+.skill strong {
+    color: #ff7eb3;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.about {
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    color: #444;
+}
+
+.about h2 {
+    color: #e91e63;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
 /* ===== Animations ===== */
 @keyframes slideDown {
     from {
